@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+/* Navbar Section Starts */
 .navbar-flexible-container {
   display: flex;
   justify-content: space-between;
@@ -32,6 +33,8 @@
 .navbar-menu ul li a:hover {
   color: black;
 }
+/* Navbar Section Ends */
+/* Header Section Starts */
 .header-section {
   background-color: rgba(192, 161, 166, 0.4);
 }
@@ -61,7 +64,7 @@ p {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-.header-taxt .btn {
+.header-taxt .btn, .products-btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: #ff0000;
@@ -69,3 +72,69 @@ p {
   border: none;
   border-radius: 5px;
 }
+.btn:hover{
+    background-color: #0000ff;
+}
+/* Header Section Ends */
+/* Service Section Starts  */
+.service-felxible-container {
+  display: flex;
+  margin: 100px;
+  padding: 20px;
+}
+.service-header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+.service-header span,
+.color {
+  color: #ffa500;
+}
+.service-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 10px 10px 50px gray;
+  margin-right: 40px;
+  border-radius: 10px;
+  background-color: rgb(153, 128, 132);
+}
+.card-icon img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+/* Service Section Ends  */
+/* Products Section Starts */
+.products-section h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+.labtop {
+  margin-left: 120px;
+}
+.products-flexible-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.products-flexible-container img {
+  width: 200px;
+  height: 150px;
+}
+.product-card{
+    margin: 20px;
+    box-shadow: 10px 10px 50px gray;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.products-btn:hover{
+    background-color: #0000ff;
+}
+/* Products Section Ends */
