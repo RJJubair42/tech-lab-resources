@@ -64,7 +64,7 @@ p {
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-.header-taxt .btn, .products-btn {
+.header-taxt .btn, .products-btn, .update-btn {
   display: inline-block;
   padding: 10px 20px;
   background-color: #ff0000;
@@ -72,7 +72,7 @@ p {
   border: none;
   border-radius: 5px;
 }
-.btn:hover{
+.btn:hover,.update-btn:hover, .products-btn:hover{
     background-color: #0000ff;
 }
 /* Header Section Ends */
@@ -82,7 +82,7 @@ p {
   margin: 100px;
   padding: 20px;
 }
-.service-header {
+.service-header, .update, .footer {
   text-align: center;
   margin-top: 50px;
   font-size: 3rem;
@@ -134,7 +134,27 @@ p {
     text-align: center;
     border-radius: 10px;
 }
-.products-btn:hover{
-    background-color: #0000ff;
-}
 /* Products Section Ends */
+
+/* Updates Section Starts */
+.update-flexible-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.email{
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* Updates Section Ends */
+/* Footer Section Starts */
+.footer{
+    background-color: #000000;
+    color: wheat;
+    margin-top: 50px;
+    padding: 10px;
+}
+/* Footer Section Ends */
