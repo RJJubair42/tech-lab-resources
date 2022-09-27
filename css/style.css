@@ -1,3 +1,71 @@
-body{
-    background-color: red;
+/* Common css Style */
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.navbar-flexible-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px 20px;
+}
+.navbar-menu ul {
+  display: flex;
+}
+.navbar-menu ul li {
+  list-style-type: none;
+}
+.navbar-menu ul li a {
+  text-decoration: none;
+  padding: 30px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.navbar-menu ul li a:hover {
+  color: black;
+}
+.header-section {
+  background-color: rgba(192, 161, 166, 0.4);
+}
+.header-flexible-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+}
+.header-taxt h1,
+h3,
+h4,
+p {
+  margin-bottom: 10px;
+}
+.header-taxt p {
+  font-size: 1.5rem;
+}
+.header-taxt h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.color {
+  color: #ffa500;
+}
+.header-taxt h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.header-taxt .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
 }
